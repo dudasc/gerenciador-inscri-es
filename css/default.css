@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #006291;
+}
+h1 {
+	font-weight: normal;
+	font-size: 30px;
+}
+#geral {
+	width: 900px !important;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px 10px 0px 10px;
+	box-shadow: 0px 0px 25px #333;
+	margin: 20px auto;
+}
+header {
+	background: #fbfbfb;
+	padding: 10px;
+}
+.navbar-inner .container {
+	width: 920px;
+}
+nav {
+	margin-top: 5px;
+}
+section {
+	width: 900px;
+	min-height: 270px !important;
+}
+footer {
+	clear: left;
+	background: #fbfbfb;
+}
+footer p {
+	color: #000;
+	padding: 5px;
+	font-size: 11px;
+}
+#form-login, #form-cadastro {
+	width: 55%;
+	margin: 0 auto;
+}
+#form-cadastro-palestra, #form-cadastro-minicurso {
+	width: 65% !important;
+	margin: 0 auto;
+}
+#form-login-recovery {
+	margin: 0 auto !important;
+}
+#centro p {
+	text-align: center;
+}
+#logout {
+	float: right;
+}
+#logout p {
+	color: #666;
+	font-size: 12px;
+}
+.sucess {
+	color: #090;
+}
+.valid {
+	color: #06C;
+}
+label.error {
+	color: #F00;
+}
+.controls label.error {
+	font-size: 12px;
+	line-height: 20px;
+}
+label {
+	margin: 0;
+}
+legend {
+	text-align: center;
+}
+p.error {
+	color: #F00;
+}
+.cancela {
+	margin-top: 3px;
+}
+h4 {
+	margin-left: 5px;
+}
+.carregando-presenca {
+	display: none;
+}
